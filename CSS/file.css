@@ -33,3 +33,8 @@
     border: 1px solid #ccc;
     border-top: none;
   }
+
+  /* Style page content */
+  .pageContent {
+    padding: 0px 0px 18px 0px;
+  }
