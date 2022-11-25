@@ -18,3 +18,5 @@ function openLink(evt, section) {
     document.getElementById(section).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+  document.getElementById("defaultOpen").click();
