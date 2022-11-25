@@ -9,6 +9,10 @@
         <link rel="icon" type="image/png" href="/Media/logo_small.png" />
         <!-- <base href="https://www.RakerResearchGroup/org" /> -->
         <meta name="Raker Research Group" content="Overview of the Raker Research Group" />
+        <script>
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
     </head>
 
     <body>
@@ -20,7 +24,7 @@
         </header>
 
         <div class="tab">
-            <button class="tablinks" onclick="openLink(event, 'Research')">Research</button>
+            <button class="tablinks" onclick="openLink(event, 'Research' id="defaultOpen")">Research</button>
             <button class="tablinks" onclick="openLink(event, 'RecentNews')">Recent News</button>
             <button class="tablinks" onclick="openLink(event, 'JeffRaker')">Jeff Raker</button>
             <button class="tablinks" onclick="openLink(event, 'GroupMembers')">Group Members</button>
