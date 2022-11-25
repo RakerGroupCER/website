@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <title>Raker Research Group</title>
         <!-- <script defer src="/JS/file.js"></script> -->
-        <!-- <link href="/CSS/file.css" rel="stylesheet" /> -->
+        <link href="/CSS/file.css" rel="stylesheet" />
         <link rel="icon" type="image/png" href="/Media/logo_small.png" />
         <!-- <base href="https://www.RakerResearchGroup/org" /> -->
         <meta name="Raker Research Group" content="Overview of the Raker Research Group" />
@@ -19,7 +19,15 @@
             </p>
         </header>
 
-        <div id="Research">
+        <div class="tab">
+            <button class="tablinks" onclick="openLink(event, 'Research')">Research</button>
+            <button class="tablinks" onclick="openLink(event, 'RecentNews')">Recent News</button>
+            <button class="tablinks" onclick="openLink(event, 'JeffRaker')">Jeff Raker</button>
+            <button class="tablinks" onclick="openLink(event, 'GroupMembers')">Group Members</button>
+            <button class="tablinks" onclick="openLink(event, 'Publications')">Publications</button>
+        </div>
+
+        <div id="Research" class="tabcontent">
             <h2>
                 Our research is centered on four themes:
             </h2>
@@ -54,7 +62,7 @@
             </ul>
         </div>
 
-        <div id="Recent News">
+        <div id="RecentNews" class="tabcontent">
             <h2>
                 Recent News
             </h2>
@@ -66,7 +74,7 @@
             </ul>
         </div>
 
-        <div id="Jeff Raker">
+        <div id="JeffRaker" class="tabcontent">
             <h2>
                 Jeffrey R. Raker, Principal Investigator
             </h2>
@@ -87,7 +95,7 @@
             </p>
         </div>
 
-        <div id="Group Members">
+        <div id="GroupMembers" class="tabcontent">
             <h2>
                 Group Members
             </h2>
@@ -237,7 +245,7 @@
 
         </div>
 
-        <div id="Publications">
+        <div id="Publications" class="tabcontent">
             <h2>
                 Publications
             </h2>
