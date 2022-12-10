@@ -2,10 +2,34 @@
 /* Custom properties   */
 /* ------------------- */
 
-h1 {
-  padding: .50em 0;
+header {
+  padding: 1.50em 0 0 0;
+}
+
+h2, h3 {
+  padding: 0.5em 0 0em 0;
 }
 
 p {
-  padding: 0.25em 0;
+  padding: 0.5em 2.5em 0.5em 2.5em;
+}
+
+img {
+  padding: 1.00em;
+}
+
+footer {
+  padding: 1.5em 0 0 0;
+}
+
+.card{
+  margin: 0.25em;
+}
+
+.blockquote {
+  padding: 0 2.5em 0 2.5em;
+}
+
+.tab {
+  padding: 0 0 0.75em 0;
 }

@@ -6,57 +6,87 @@
         <title>Raker Research Group</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link href="CSS/file.css" rel="stylesheet" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
     </head>
 
     <body>
         <div class="container">
         <header>
-            <h1>Raker Research Group</h1>
-            <p>
-                The Raker Research Group is composed of chemical education researchers focused on developing tools to assess learning and to evaluate learning experiences in undergraduate chemistry courses. We use a variety of quantitative and qualitative methods to achieve our research goals including survey research methods, structural equation modeling, psychometric evaluations of instrument validity and reliability, semi-structured interviews, focus groups, think-aloud protocols, and response process interviews.
-            </p>
+            <img src="Media/group_logo.png" alt="Raker Research Group Logo. Bookshelf with three books. One with the letters C, E, and R for chemical education research. One with the structure of the molecule benzene. And, one with a generic structural equation model." class="mx-auto d-block" style="width: 200px; height: 200px;">
+            
+            <h1 class="text-center">Raker Research Group</h1>
+            
+            <blockquote class="blockquote">
+                <p>
+                    The Raker Research Group is composed of chemical education scholars focused on developing tools to assess learning and to evaluate learning experiences in undergraduate chemistry courses. We use a variety of quantitative and qualitative methods to achieve our research goals including survey research methods, structural equation modeling, psychometric evaluations of instrument validity and reliability, semi-structured interviews, focus groups, think-aloud protocols, and response process interviews.
+                </p>
+            </blockquote>
         </header>
 
         <div class="pageContent" class="container">
-            <div class="tab">
+            <div class="tab text-center">
                 <button class="tablinks" onclick="openLink(event, 'Research')" id="defaultOpen">Research</button>
                 <button class="tablinks" onclick="openLink(event, 'RecentNews')">News & Updates</button>
-                <button class="tablinks" onclick="openLink(event, 'JeffRaker')">Jeff Raker</button>
                 <button class="tablinks" onclick="openLink(event, 'GroupMembers')">Group Members</button>
+                <button class="tablinks" onclick="openLink(event, 'JeffRaker')">Jeff Raker</button>
                 <button class="tablinks" onclick="openLink(event, 'Publications')">Publications</button>
             </div>
 
             <div id="Research" class="tabcontent">
-                <h2>
+                <h3>
                     Our research is centered on four themes:
-                </h2>
-                <ul>
-                    <li><h3>Learning in Organic Chemistry</h3></li>
-                        <ul>
-                            <li>How do learners ascribe meaning to reaction mechanisms?</li>
-                            <li>How can we develop tools to measure such learning?</li>
-                            <li>How can we design experiences to promote learning of reaction mechanisms and sophisticated reasoning?</li>
-                        </ul>
-                    <li><h3>Learning in Inorganic Chemistry</h3></li>
-                        <ul>
-                            <li>How do faculty members teaching inorganic chemistry respond to measures of learning and learners' affective experiences when seeking to transform their courses?</li>
-                        </ul>
-                    <li><h3>Faculty Member Professional Development</h3></li>
-                        <ul>
-                            <li>How do faculty members use assessments and the education research literature when developing and refining their instructional practices?</li>
-                        </ul>
-                    <li><h3>Measurement and Psychometrics</h3></li>
-                        <ul>
-                            <li>How do we measure non-cognitive learning and affective experiences in the context of chemistry learning?</li>
-                            <li>How do non-cognitive and affect measures inform course and program-level assessment?</li>
-                        </ul>
-                </ul>
-                
-                <h2>
+                </h3>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <img src="Media/jeff_profile.jpeg" alt="Photo of Jeffrey R. Raker, Principal Investigator" style="float:right;width:150px;height:150px;">
+                                <h4 class="card-title">Learning in Organic Chemistry</h4></li>
+                                <ul class="card-text">
+                                    <li>How do learners ascribe meaning to reaction mechanisms?</li>
+                                    <li>How can we develop tools to measure such learning?</li>
+                                    <li>How can we design experiences to promote learning of reaction mechanisms and sophisticated reasoning?</li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Learning in Inorganic Chemistry</h4></li>
+                                <ul class="card-text">
+                                    <li>How do faculty members teaching inorganic chemistry respond to measures of learning and learners' affective experiences when seeking to transform their courses?</li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Faculty Member Professional Development</h4></li>
+                                <ul class="card-text">
+                                    <li>How do faculty members use assessments and the education research literature when developing and refining their instructional practices?</li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Measurement and Psychometrics</h4></li>
+                                <ul class="card-text">
+                                    <li>How do we measure non-cognitive learning and affective experiences in the context of chemistry learning?</li>
+                                    <li>How do non-cognitive and affect measures inform course and program-level assessment?</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </br>
+                </br>
+                <h4>
                     Our research is currently funded through two <a href = "https://www.nsf.gov">National Science Foundation</a> grants:
-                </h2>
+                </h4>
                 <ul>
                     <li><a href = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1726133&HistoricalAwards=false">NSF DUE-1726133</a> - <a href = "https://www.ionicviper.org">Improving inorganic chemistry education through a community-developed student-centered curriculum</a></li>
                     <li><a href = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1936574&HistoricalAwards=false">NSF DUE-1936574 - Impacting assessment practices of postsecondary faculty teaching gateway chemistry courses</a></li>
@@ -69,7 +99,7 @@
                 </h2>
                 <ul>
                     <li>
-                        <h3>Congratulations Dr. Brandon J. Yik</h3>
+                        <h4>Congratulations Dr. Brandon J. Yik</h4>
                         <p>Congratulations to Dr. Brandon J. Yik for successfully defending their dissertation today! Dr. Yik is the fourth student to graduate a Ph.D. from the Raker Research Group.</p>
                     </li>
                 </ul>
@@ -103,11 +133,11 @@
                 </h2>
 
                 <div id="Current Group Members">
-                    <h3>
+                    <h4>
                         Current Group Members
-                    </h3>
+                    </h4>
                     <ul>
-                        <li><h4>Dr. Megan Connor</h4>
+                        <li><h5>Dr. Megan Connor</h5>
                             <img src="Media/megan_profile.JPG" alt="Photo of Dr. Megan Connor" style="float:right;width:100px;height:100px;">
                             <p><a href = "https://scholar.google.com/citations?hl=en&user=bfCXZd4AAAAJ">Google Scholar</a></p>
                             <p>Postdoctoral Research Associate</p>
@@ -115,19 +145,19 @@
                             <p>Ph.D., 2021, Chemistry, University of Michigan</p>
                             <p>Joined: Summer 2021</p>
                         </li>
-                        <li><h4>Stephanie Frost</h4>
+                        <li><h5>Stephanie Frost</h5>
                             <img src="Media/steph_profile.JPG" alt="Photo of Stephanie Frost" style="float:right;width:100px;height:100px;">
                             <p>Graduate Student</p>
                             <p>B.S., 2021, Chemistry and French, University of Wisconsin-Madison</p>
                             <p>Joined: Fall 2021</p>
                         </li>
-                        <li><h4>Caroline Crowder</h4>
+                        <li><h5>Caroline Crowder</h5>
                             <img src="Media/caroline_profile.jpg" alt="Photo of Caroline Crowder" style="float:right;width:100px;height:100px;">
                             <p>Graduate Student</p>
                             <p>B.S., 2022, Chemistry, Florida State University</p>
                             <p>Joined: Fall 2022</p>
                         </li>
-                        <li><h4>Kendall Zammit</h4>
+                        <li><h5>Kendall Zammit</h5>
                             <img src="Media/kendall_profile.jpeg" alt="Photo of Kendall Zammit" style="float:right;width:100px;height:100px;">
                             <p>Graduate Student</p>
                             <p>B.S., 2022, Chemistry (ACS Certified) and Secondary Education, Appalachian State University</p>
@@ -137,28 +167,28 @@
                 </div>
 
                 <div id="Former Doctoral Research Students">
-                    <h3>
+                    <h4>
                         Former Doctoral Research Students
-                    </h3>
+                    </h4>
                     <ul>
-                        <li><h4>Dr. Rebecca Gibbons</h4>
+                        <li><h5>Dr. Rebecca Gibbons</h5>
                             <p><a href ="https://scholar.google.com/citations?user=2DqvXkAAAAAJ&hl=en">Google Scholar</a></p>
                             <p>Ph.D., Chemical Education</p>
                             <p>Dissertation Defense: June 12, 2018</p>
                             <p>Assistant Director of Assessment, University of South Florida</p> 
                         </li>
-                        <li><h4>Dr. Amber Dood</h4>
+                        <li><h5>Dr. Amber Dood</h5>
                             <p><a href = "https://scholar.google.com/citations?user=bydDriEAAAAJ&hl=en">Google Scholar</a></p>
                             <p>Ph.D., Chemical Education</p>
                             <p>Dissertation Defense: February 26, 2020</p>
                             <p>Postdoctoral Researcher, University of Michigan</p>
                         </li>
-                        <li><h4>Dr. Aaron Clark</h4>
+                        <li><h5>Dr. Aaron Clark</h5>
                             <p>Ph.D., Chemical Education</p>
                             <p>Dissertation Defense: January 28, 2021</p>
                             <p>Lecturer, Yale University</p>
                         </li>
-                        <li><h4>Dr. Brandon J. Yik</h4>
+                        <li><h5>Dr. Brandon J. Yik</h5>
                             <p><a href ="https://scholar.google.com/citations?user=wV2qw4MAAAAJ&hl=en">Google Scholar</a></p>
                             <p>Ph.D., Chemical Education</p>
                             <p>Dissertation Defense: October 4, 2022</p>
@@ -168,23 +198,23 @@
                 </div>
 
                 <div id="Former Postdoctoral Research Assocaites">
-                    <h3>
+                    <h4>
                         Former Postdoctoral Research Associates
-                    </h3>
+                    </h4>
                     <ul>
-                        <li><h4>Dr. Sachel Villafañe-Garcia</h4>
+                        <li><h5>Dr. Sachel Villafañe-Garcia</h5>
                             <p>ACS Exams, 2015-2016</p>
                             <p>Faculty, California State University - Fullerton</p>
                         </li>
-                        <li><h4>Dr. Xiaoying Xu</h4>
+                        <li><h5>Dr. Xiaoying Xu</h5>
                             <p>2016-2017</p>
                             <p>Data Analyst, Muma College of Business, University of South Florida</p>
                         </li>
-                        <li><h4>Dr. Shalini Srinivasan</h4>
+                        <li><h5>Dr. Shalini Srinivasan</h5>
                             <p>ACS Exams, 2017-2018</p>
                             <p>Faculty, Metropolitan State University of Denver</p>
                         </li>
-                        <li><h4>Dr. Justin Pratt</h4>
+                        <li><h5>Dr. Justin Pratt</h5>
                             <p>2019-2020</p>
                             <p>Faculty, University of Rhode Island</p>
                         </li>
@@ -192,15 +222,15 @@
                 </div>
 
                 <div id="Former Masters Degree Students">
-                    <h3>
+                    <h4>
                         Former Masters Degree Students
-                    </h3>
+                    </h4>
                     <ul>
-                        <li><h4>Benjamin Van Norman</h4>
+                        <li><h5>Benjamin Van Norman</h5>
                             <p>M.A., Chemical Education</p>
                             <p>Graduated: Summer 2016</p>
                         </li>
-                        <li><h4>Caitlin Zumalt</h4>
+                        <li><h5>Caitlin Zumalt</h5>
                             <p>M.A., Chemical Education</p>
                             <p>Graduated: Summer 2018</p>
                         </li>
@@ -208,41 +238,41 @@
                 </div>
 
                 <div id="Former Undergraduate Students">
-                    <h3>
+                    <h4>
                         Former Undergraduate Students
-                    </h3>
+                    </h4>
                     <ul>
-                        <li><h4>Jessica M. Leon</h4>
+                        <li><h5>Jessica M. Leon</h5>
                             <p>Honors Thesis</p>
                             <p>Major: Secondary Mathematics Education</p>
                             <p>Graduated: Spring 2015</p>
                         </li>
-                        <li><h4>Bryan Pacheco</h4>
+                        <li><h5>Bryan Pacheco</h5>
                             <p>Major: Microbiology</p>
                             <p>Graduated: Spring 2015</p>
                         </li>
-                        <li><h4>Janier Duran</h4>
+                        <li><h5>Janier Duran</h5>
                             <p>Major: Biology</p>
                             <p>Graduated: Summer 2015</p>
                         </li>
-                        <li><h4>Yanci Algarin</h4>
+                        <li><h5>Yanci Algarin</h5>
                             <p>Major: Integrative Animal Biology</p>
                             <p>Graduated: Fall 2016</p>
                         </li>
-                        <li><h4>Alaina Keith</h4>
+                        <li><h5>Alaina Keith</h5>
                             <p>Major: Health Science</p>
                             <p>Graduated: Spring 2017</p>
                         </li>
-                        <li><h4>Emily Laga</h4>
+                        <li><h5>Emily Laga</h5>
                             <p>Major: Biomedical Sciences</p>
                             <p>Graduated: Spring 2017</p>
                         </li>
-                        <li><h4>Joshua Vega</h4>
+                        <li><h5>Joshua Vega</h5>
                             <p>Honors Thesis</p>
                             <p>Major: Cell and Molecular Biology</p>
                             <p>Graduated: Spring 2018</p>
                         </li>
-                        <li><h4>Zoraida Laremont</h4>
+                        <li><h5>Zoraida Laremont</h5>
                             <p>Major: Cell and Molecular Biology</p>
                             <p>Graduated: Spring 2018</p>
                         </li>
@@ -260,8 +290,8 @@
                 </p>
             </div>
         </div>
-
-        <footer id="footer">
+        
+        <footer id="footer" class="text-center">
             © Jeffrey R. Raker. All rights reserved.
         </footer>
 
