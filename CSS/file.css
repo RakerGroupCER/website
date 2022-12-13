@@ -42,6 +42,10 @@ a {
   color: hsl(192, 41%, 42%);
 }
 
+a:hover {
+  color: rgb(202, 202, 202);
+}
+
 .card{
   margin: 0.25em;
 }
