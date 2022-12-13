@@ -57,5 +57,19 @@ a:hover {
 }
 
 .tab {
-  padding: 0 0 0.75em 0;
+  padding: 0 0em 1.5em 0em;
+}
+
+button {
+  border-radius: 12px;
+  border: 2px solid hsl(192, 41%, 42%);
+  text-align: center;
+  text-decoration: none;
+  background-color: #e7e7e7;
+  margin: 0 0.5em 1em 0.5em;
+  padding: 0.5em 1em;
+}
+
+button:hover {
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 12px 0 rgba(0,0,0,0.19);
 }
